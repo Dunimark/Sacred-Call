@@ -10,3 +10,4 @@ cacert.pem
 nppbackup/
 *.bkp
 *.bak
+cliff.toml
