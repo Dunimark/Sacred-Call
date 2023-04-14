@@ -11,3 +11,4 @@ nppbackup/
 *.bkp
 *.bak
 cliff.toml
+.chglog/
