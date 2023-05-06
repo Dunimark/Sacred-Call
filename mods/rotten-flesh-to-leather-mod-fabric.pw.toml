@@ -1,0 +1,13 @@
+name = "Rotten flesh to Leather (Fabric)"
+filename = "rottenflesh-to-leather_1-19.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/aDbO5Ehv/versions/TbcFCK0N/rottenflesh-to-leather_1-19.jar"
+hash-format = "sha1"
+hash = "982337c6dbf2dec158f7c2d27d0e07276c11bbaf"
+
+[update]
+[update.modrinth]
+mod-id = "aDbO5Ehv"
+version = "TbcFCK0N"
