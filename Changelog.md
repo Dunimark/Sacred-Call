@@ -1,0 +1,59 @@
+# Changelog
+
+### Added Mods
+
+- Realistic Sleep
+- Terralith
+- Friends & Foes
+- Friends & Foes - Flowery Mooblooms
+- Iris Shaders
+- Enchantment Lore
+- Forgero
+- Dark Enchanting
+- Oh The Bioms You'll Go 
+- BetterEnd
+- Better Nether
+- REI
+- GeckoLib
+- Phospor
+- Gravestones
+- Cloth Config API
+- OriginsSimple Discord RPC
+- Simple Voice Chat
+- Rotten Flesh to Leather
+- CrogiLib
+- Architectury API
+- Balm
+- Dark Mode Everywhere
+- Mythic Metals
+- Mod Menu
+- Fabric API
+- Waystones
+- Alloy Forgery
+- Ferrit Core
+- Mo' Structures
+- Lithium
+- BCLib
+- TerraBlender
+- Fabric Language Kotlin
+- Smooth Boot 
+- Sodium 
+- oωo (owo-lib)
+- Yung's API
+- Yung's Better Strongholds
+- Yung's Better Desert Temples
+- Yung's Better Mineshafts
+- Yung's Better Nether Fortresses
+- Yung's Better Ocean Monuments
+- Yung's Bridges
+- Yung's Extras
+- Yung's Better Witch Huts
+- NPC Variety
+- Natures Compass
+- midnightliv
+- Jade
+- Jade Addons
+- Guard Villagers
+- BotanyPots
+- Bookshelf
+- Dungeon Now Loading [https://www.curseforge.com/minecraft/mc-mods/dungeon-now-loading]

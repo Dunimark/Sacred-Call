@@ -5,10 +5,14 @@ libssl*.dll
 libcrypto*.dll
 cacert.pem
 
+### MAC OS ###
+.DS_Store
+
 ### Modpack ###
 .out/
 nppbackup/
 *.bkp
 *.bak
 cliff.toml
-.chglog/
+
+*.mrpack
