@@ -65,7 +65,7 @@ jobs:
       - name: Upload zip
         uses: actions/upload-artifact@v2
         with:
-        #  name: ${{ env.projectname }}-${{ env.modpackversion }}
+          name: ${{ env.projectname }}-${{ env.modpackversion }}
           path: .out/${{ env.projectname }}-${{ env.modpackversion }}.zip
 
   assets:
