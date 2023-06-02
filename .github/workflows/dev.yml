@@ -27,31 +27,9 @@ jobs:
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
 
-  changelog:
-    runs-on: ubuntu-latest
-    outputs:
-      changelog: ${{ steps.changelog.outputs.changelog }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Generate changelog
-        id: changelog
-        uses: heinrichreimer/github-changelog-generator-action@v2.1.1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          output: CHANGELOG.md
-          stripGeneratorNotice: true
-          onlyLastTag: true
-          issueLineLabels: "ALL"
-      - name: Store changelog
-        uses: actions/upload-artifact@v2
-        with:
-          name: changelog
-          path: CHANGELOG.md
-
   build:
     runs-on: ubuntu-latest
-    needs: [changelog, modpack-info]
+    needs: [modpack-info]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -83,7 +61,7 @@ jobs:
   release-github:
     name: Create Release
     runs-on: ubuntu-latest
-    needs: [build, modpack-info]
+    needs: [build]
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
