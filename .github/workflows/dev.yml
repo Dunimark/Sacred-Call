@@ -10,7 +10,7 @@ jobs:
   modpack-info:
     runs-on: ubuntu-latest
     outputs:
-      projectname: ${{ steps.info.outputs.projectname }}
+      projectname: ${{ steps.info-name.outputs.projectname }}
       version: ${{ steps.info-version.outputs.version }}
       tag: ${{ steps.version.outputs.tag }}
     steps:
