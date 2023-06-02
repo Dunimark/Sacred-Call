@@ -15,9 +15,9 @@ changelog:
       labels:
         - Semver-Minor
         - enhancement
-    - title: New Mods
+    - title: New Mods 🎉
       labels: 
-        - Mods
+        - mods
     - title: Other Changes
       labels:
         - "*"
