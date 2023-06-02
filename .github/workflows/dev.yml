@@ -76,6 +76,8 @@ jobs:
       contents: write
     steps:
       - name: Get Artifact
+        env:
+             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run:
             gh run download --name ${{ env.projectname }}-${{ env.modpackversion }}.zip
       - name: Upload Release Asset
