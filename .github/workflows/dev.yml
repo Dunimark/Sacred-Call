@@ -4,33 +4,40 @@ on:
     push:
         tags:
             - 'indev-*'
-
+env:
+    projectname: Sacred-Call
+    mcversion: 1.19.2
+    modpackversion: ${{ github.ref_name }}
 
 jobs:
   modpack-info:
     runs-on: ubuntu-latest
-    outputs:
-      projectname: ${{ steps.info-name.outputs.projectname }}
-      version: ${{ steps.info-version.outputs.version }}
-      tag: ${{ steps.version.outputs.tag }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Get modpack version
-        id: info-version
+      - name: Set minecraft version
+        id: info-mcversion
         run: |
             manifestjson=`cat ./modpack/manifest.json`
-            version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
-            echo "name=version::$version" >> "$GITHUB_OUTPUT"
-      - name: Get modpack name
+            mcversion=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
+            echo "name=mcversion::$mcversion" >> $GITHUB_ENV
+      - name: Set modpack name
         id: info-name
         run: |
             manifestjson=`cat ./modpack/manifest.json`
             projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
-            echo "name=projectname::$projectname" >> "$GITHUB_OUTPUT"
-      - name: Get tag
-        id: version
-        uses: "WyriHaximus/github-action-get-previous-tag@v1"
+            echo "name=projectname::$projectname" >> $GITHUB_ENV
+      - name: Set modpack version
+        id: info-version
+        run: |
+            manifestjson=`cat ./modpack/manifest.json`
+            modpackversion=`echo $(jq -r '.version' <<< "$manifestjson")`
+            echo "name=modpackversion::$modpackversion" >> $GITHUB_ENV
+      - name: Get Env
+        run: |
+            echo "$projectname"
+            echo "$mcversion"
+            echo "$modpackversion"
 
   build:
     name: Build Modpack
@@ -38,12 +45,13 @@ jobs:
     needs: [modpack-info]
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
       - name: Download PAX
-        uses: dsaltares/fetch-gh-release-asset@master
+        uses: robinraju/release-downloader@v1.8
         with:
-          repo: froehlichA/pax
+          repository: "froehlichA/pax"
           file: "pax"
+          latest: true
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Export modpack
         run: |
@@ -51,12 +59,12 @@ jobs:
           ./pax export
       - name: Rename zip
         run: |
-          mv .out/${{ needs.modpack-info.outputs.projectname }}.zip .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          mv .out/$projectname.zip .out/$projectname-$modpackversion.zip
       - name: Upload zip
         uses: actions/upload-artifact@v2
         with:
           name: modpack
-          path: .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          path: .out/$projectname-$modpackversion.zip
   assets:
     name: upload assets
     runs-on: ubuntu-latest
@@ -70,7 +78,7 @@ jobs:
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run:
-          gh release upload ${{ github.ref }} ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          gh release upload ${{ github.ref }} $projectname-$modpackversion.zip
   release-github:
     name: Create Release
     runs-on: ubuntu-latest
