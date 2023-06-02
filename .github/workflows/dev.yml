@@ -86,7 +86,7 @@ jobs:
   release-github:
     name: Create Release
     runs-on: ubuntu-latest
-    needs: [build, modpack-info]
+    needs: [build, modpack-info, assets]
     permissions:
       contents: write
     steps:
