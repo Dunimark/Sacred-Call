@@ -61,15 +61,9 @@ jobs:
         run: |
           mv .out/$projectname.zip .out/$projectname-$modpackversion.zip
       - name: Upload Release Asset
-        env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run:
-            gh release upload ${{ github.ref }} ${{ env.projectname }}-${{ env.modpackversion }}.zip
-#       - name: Upload zip
-#         uses: actions/upload-artifact@v2
-#         with:
-#           name: modpack
-#           path: .out/${{ env.projectname }}-${{ env.modpackversion }}.zip
+        uses: softprops/action-gh-release@v1
+        with:
+            file: ${{ env.projectname }}-${{ env.modpackversion }}.zip
 #   assets:
 #     name: upload assets
 #     runs-on: ubuntu-latest
