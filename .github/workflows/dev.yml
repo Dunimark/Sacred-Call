@@ -106,4 +106,3 @@ jobs:
             ${{ steps.Changelog.outputs.changelog }}
           draft: true
           prerelease: true
-          files: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
