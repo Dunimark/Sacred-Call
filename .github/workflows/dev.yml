@@ -79,7 +79,7 @@ jobs:
         env:
              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run:
-            gh run download dev --name ${{ env.projectname }}-${{ env.modpackversion }}.zip -r ${{github.repository}}
+            gh run download dev -R ${{github.repository}} --name ${{ env.projectname }}-${{ env.modpackversion }}.zip
       - name: Upload Release Asset
         env:
              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
