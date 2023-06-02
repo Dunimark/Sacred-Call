@@ -75,11 +75,11 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Get Artifact
-        env:
-             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run:
-            gh run download dev -R ${{github.repository}} --name ${{ env.projectname }}-${{ env.modpackversion }}.zip
+    #   - name: Get Artifact
+    #     env:
+    #          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #     run:
+    #         gh run download -R ${{github.repository}} --name ${{ env.projectname }}-${{ env.modpackversion }}.zip
       - name: Upload Release Asset
         env:
              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
