@@ -50,7 +50,7 @@ jobs:
         uses: robinraju/release-downloader@v1.8
         with:
           repository: "froehlichA/pax"
-          file: "pax"
+          fileName: "pax"
           latest: true
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Export modpack
@@ -77,7 +77,7 @@ jobs:
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run:
-          gh release upload ${{ github.ref }} $projectname-$modpackversion.zip
+          gh release upload ${{ github.ref }} ${{ env.projectname }}-${{ env.modpackversion }}.zip
   release-github:
     name: Create Release
     runs-on: ubuntu-latest
@@ -90,6 +90,6 @@ jobs:
         with:
           fetch-depth: 0
       - name: Create Release
-        run: gh release create ${{ github.ref }} --generate-notes
+        run: gh release create ${{ github.ref }} --generate-notes -d -p 
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
