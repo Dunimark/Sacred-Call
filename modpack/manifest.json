@@ -1,9 +1,9 @@
 {
   "minecraft": {
-    "version": "1.19.2",
+    "version": "1.19.4",
     "modLoaders": [
       {
-        "id": "fabric-0.14.19",
+        "id": "fabric-0.14.21",
         "primary": true
       }
     ]
@@ -17,7 +17,7 @@
   "files": [
     {
       "projectID": 60089,
-      "fileID": 3828448,
+      "fileID": 4440210,
       "required": true,
       "__meta": {
         "name": "Mouse Tweaks"
@@ -25,7 +25,7 @@
     },
     {
       "projectID": 228525,
-      "fileID": 4426590,
+      "fileID": 4570841,
       "required": true,
       "__meta": {
         "name": "Bookshelf",
@@ -34,7 +34,7 @@
     },
     {
       "projectID": 248787,
-      "fileID": 3927567,
+      "fileID": 4573180,
       "required": true,
       "__meta": {
         "name": "AppleSkin",
@@ -45,7 +45,7 @@
     },
     {
       "projectID": 252848,
-      "fileID": 4118387,
+      "fileID": 4476811,
       "required": true,
       "__meta": {
         "name": "Nature's Compass"
@@ -53,7 +53,7 @@
     },
     {
       "projectID": 256717,
-      "fileID": 4153346,
+      "fileID": 4552339,
       "required": true,
       "__meta": {
         "name": "Clumps"
@@ -61,7 +61,7 @@
     },
     {
       "projectID": 306549,
-      "fileID": 4277193,
+      "fileID": 4458137,
       "required": true,
       "__meta": {
         "name": "Tips",
@@ -72,7 +72,7 @@
     },
     {
       "projectID": 306612,
-      "fileID": 4438705,
+      "fileID": 4600520,
       "required": true,
       "__meta": {
         "name": "Fabric API",
@@ -81,7 +81,7 @@
     },
     {
       "projectID": 308769,
-      "fileID": 4507659,
+      "fileID": 4575400,
       "required": true,
       "__meta": {
         "name": "Fabric Language Kotlin",
@@ -90,7 +90,7 @@
     },
     {
       "projectID": 310111,
-      "fileID": 4440718,
+      "fileID": 4573159,
       "required": true,
       "__meta": {
         "name": "Roughly Enough Items Fabric/Forge (REI)",
@@ -103,7 +103,7 @@
     },
     {
       "projectID": 311377,
-      "fileID": 4393102,
+      "fileID": 4592741,
       "required": true,
       "__meta": {
         "name": "BetterNether",
@@ -115,7 +115,7 @@
     },
     {
       "projectID": 318449,
-      "fileID": 3954769,
+      "fileID": 4160616,
       "required": true,
       "__meta": {
         "name": "Cardinal Components",
@@ -123,8 +123,20 @@
       }
     },
     {
+      "projectID": 319596,
+      "fileID": 4600012,
+      "required": true,
+      "__meta": {
+        "name": "Pehkui",
+        "explicit": false,
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
       "projectID": 324717,
-      "fileID": 4328558,
+      "fileID": 4561717,
       "required": true,
       "__meta": {
         "name": "Jade 🔍"
@@ -132,7 +144,7 @@
     },
     {
       "projectID": 348521,
-      "fileID": 3972420,
+      "fileID": 4440460,
       "required": true,
       "__meta": {
         "name": "Cloth Config API (Fabric/Forge)",
@@ -141,7 +153,7 @@
     },
     {
       "projectID": 353928,
-      "fileID": 4514734,
+      "fileID": 4514766,
       "required": true,
       "__meta": {
         "name": "Botany Pots",
@@ -153,7 +165,7 @@
     },
     {
       "projectID": 360438,
-      "fileID": 4439700,
+      "fileID": 4439705,
       "required": true,
       "__meta": {
         "name": "Lithium (Fabric)"
@@ -169,7 +181,7 @@
     },
     {
       "projectID": 373591,
-      "fileID": 4031205,
+      "fileID": 4454263,
       "required": true,
       "__meta": {
         "name": "YUNG's Better Mineshafts (Fabric)",
@@ -182,7 +194,7 @@
     },
     {
       "projectID": 373595,
-      "fileID": 4041681,
+      "fileID": 4162283,
       "required": true,
       "__meta": {
         "name": "Gravestones",
@@ -194,7 +206,7 @@
     },
     {
       "projectID": 378266,
-      "fileID": 4468255,
+      "fileID": 4468181,
       "required": true,
       "__meta": {
         "name": "Mo' Structures (Fabric)",
@@ -205,7 +217,7 @@
     },
     {
       "projectID": 388172,
-      "fileID": 4407239,
+      "fileID": 4568325,
       "required": true,
       "__meta": {
         "name": "GeckoLib",
@@ -217,7 +229,7 @@
     },
     {
       "projectID": 391378,
-      "fileID": 4426495,
+      "fileID": 4602203,
       "required": true,
       "__meta": {
         "name": "Oh The Biomes You'll Go Refabricated",
@@ -229,8 +241,19 @@
       }
     },
     {
+      "projectID": 391943,
+      "fileID": 4546792,
+      "required": true,
+      "__meta": {
+        "name": "Origins (Fabric)",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
       "projectID": 410127,
-      "fileID": 4441526,
+      "fileID": 4578506,
       "required": true,
       "__meta": {
         "name": "Mythic Metals",
@@ -243,7 +266,7 @@
     },
     {
       "projectID": 411816,
-      "fileID": 4444848,
+      "fileID": 4444851,
       "required": true,
       "__meta": {
         "name": "Simple Discord RPC [Forge/Fabric/Quilt]",
@@ -254,7 +277,7 @@
     },
     {
       "projectID": 413596,
-      "fileID": 4393109,
+      "fileID": 4595255,
       "required": true,
       "__meta": {
         "name": "BetterEnd",
@@ -265,8 +288,16 @@
       }
     },
     {
+      "projectID": 415438,
+      "fileID": 4512803,
+      "required": true,
+      "__meta": {
+        "name": "Croptopia"
+      }
+    },
+    {
       "projectID": 415758,
-      "fileID": 3821513,
+      "fileID": 4441240,
       "required": true,
       "__meta": {
         "name": "Smooth Boot (Fabric)"
@@ -274,7 +305,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 4526269,
+      "fileID": 4600616,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -282,7 +313,7 @@
     },
     {
       "projectID": 419699,
-      "fileID": 4521272,
+      "fileID": 4555752,
       "required": true,
       "__meta": {
         "name": "Architectury API (Fabric/Forge)",
@@ -293,16 +324,8 @@
       }
     },
     {
-      "projectID": 421377,
-      "fileID": 4413708,
-      "required": true,
-      "__meta": {
-        "name": "HT's TreeChop"
-      }
-    },
-    {
       "projectID": 421649,
-      "fileID": 4441684,
+      "fileID": 4454257,
       "required": true,
       "__meta": {
         "name": "YUNG's API (Fabric)",
@@ -313,13 +336,21 @@
     },
     {
       "projectID": 430219,
-      "fileID": 3930133,
+      "fileID": 4476729,
       "required": true,
       "__meta": {
         "name": "Enchantment Lore",
         "dependencies": [
           306612
         ]
+      }
+    },
+    {
+      "projectID": 432819,
+      "fileID": 4477659,
+      "required": true,
+      "__meta": {
+        "name": "Zombie Jerky [ Fabric ]"
       }
     },
     {
@@ -331,8 +362,20 @@
       }
     },
     {
+      "projectID": 436298,
+      "fileID": 4502691,
+      "required": true,
+      "__meta": {
+        "name": "Map Atlases [Fabric]",
+        "dependencies": [
+          306612,
+          348521
+        ]
+      }
+    },
+    {
       "projectID": 438718,
-      "fileID": 4487529,
+      "fileID": 4487545,
       "required": true,
       "__meta": {
         "name": "Alloy Forgery",
@@ -343,19 +386,8 @@
       }
     },
     {
-      "projectID": 459496,
-      "fileID": 3957480,
-      "required": true,
-      "__meta": {
-        "name": "Indium",
-        "dependencies": [
-          394468
-        ]
-      }
-    },
-    {
       "projectID": 459857,
-      "fileID": 4117902,
+      "fileID": 4441951,
       "required": true,
       "__meta": {
         "name": "FerriteCore (Fabric)"
@@ -363,7 +395,7 @@
     },
     {
       "projectID": 473553,
-      "fileID": 4465138,
+      "fileID": 4463555,
       "required": true,
       "__meta": {
         "name": "Dark Enchanting",
@@ -374,7 +406,7 @@
     },
     {
       "projectID": 476200,
-      "fileID": 3969992,
+      "fileID": 4457011,
       "required": true,
       "__meta": {
         "name": "NPC Variety - Port (Fabric)",
@@ -385,7 +417,7 @@
     },
     {
       "projectID": 480684,
-      "fileID": 4031215,
+      "fileID": 4454270,
       "required": true,
       "__meta": {
         "name": "YUNG's Better Strongholds (Fabric)",
@@ -398,7 +430,7 @@
     },
     {
       "projectID": 488090,
-      "fileID": 4059589,
+      "fileID": 4470301,
       "required": true,
       "__meta": {
         "name": "MidnightLib",
@@ -410,7 +442,7 @@
     },
     {
       "projectID": 495191,
-      "fileID": 4393099,
+      "fileID": 4595250,
       "required": true,
       "__meta": {
         "name": "BCLib",
@@ -422,7 +454,7 @@
     },
     {
       "projectID": 498534,
-      "fileID": 3991296,
+      "fileID": 4538472,
       "required": true,
       "__meta": {
         "name": "Iron Chests (Fabric)"
@@ -430,7 +462,7 @@
     },
     {
       "projectID": 500087,
-      "fileID": 4513836,
+      "fileID": 4513823,
       "required": true,
       "__meta": {
         "name": "Waystones (Fabric Edition)",
@@ -441,7 +473,7 @@
     },
     {
       "projectID": 500525,
-      "fileID": 4442592,
+      "fileID": 4442610,
       "required": true,
       "__meta": {
         "name": "Balm (Fabric Edition)",
@@ -454,7 +486,7 @@
     },
     {
       "projectID": 502516,
-      "fileID": 4513860,
+      "fileID": 4513850,
       "required": true,
       "__meta": {
         "name": "Crafting Tweaks (Fabric Edition)",
@@ -464,8 +496,21 @@
       }
     },
     {
+      "projectID": 508051,
+      "fileID": 3929981,
+      "required": true,
+      "__meta": {
+        "name": "Medieval Origins",
+        "dependencies": [
+          391943,
+          306612,
+          319596
+        ]
+      }
+    },
+    {
       "projectID": 513688,
-      "fileID": 4167132,
+      "fileID": 4549551,
       "required": true,
       "__meta": {
         "name": "Terralith"
@@ -481,7 +526,7 @@
     },
     {
       "projectID": 521126,
-      "fileID": 4418106,
+      "fileID": 4436553,
       "required": true,
       "__meta": {
         "name": "Visuality",
@@ -493,7 +538,7 @@
     },
     {
       "projectID": 525586,
-      "fileID": 4031673,
+      "fileID": 4454275,
       "required": true,
       "__meta": {
         "name": "YUNG's Better Dungeons (Fabric)",
@@ -506,7 +551,7 @@
     },
     {
       "projectID": 527023,
-      "fileID": 4413888,
+      "fileID": 4444488,
       "required": true,
       "__meta": {
         "name": "Eating Animation [Fabric]"
@@ -514,7 +559,7 @@
     },
     {
       "projectID": 531351,
-      "fileID": 4441032,
+      "fileID": 4453988,
       "required": true,
       "__meta": {
         "name": "Continuity",
@@ -525,7 +570,7 @@
     },
     {
       "projectID": 532610,
-      "fileID": 4152949,
+      "fileID": 4559399,
       "required": true,
       "__meta": {
         "name": "oωo (owo-lib)",
@@ -534,7 +579,7 @@
     },
     {
       "projectID": 541171,
-      "fileID": 4539508,
+      "fileID": 4601871,
       "required": true,
       "__meta": {
         "name": "Traveler's Backpack [Fabric]",
@@ -547,7 +592,7 @@
     },
     {
       "projectID": 547694,
-      "fileID": 4412634,
+      "fileID": 4440320,
       "required": true,
       "__meta": {
         "name": "Default Options (Fabric Edition)",
@@ -558,7 +603,7 @@
     },
     {
       "projectID": 551364,
-      "fileID": 4484562,
+      "fileID": 4602667,
       "required": true,
       "__meta": {
         "name": "Friends&Foes (Fabric)",
@@ -577,7 +622,7 @@
     },
     {
       "projectID": 552277,
-      "fileID": 4515296,
+      "fileID": 4515293,
       "required": true,
       "__meta": {
         "name": "Craftify",
@@ -588,7 +633,7 @@
     },
     {
       "projectID": 565956,
-      "fileID": 4205731,
+      "fileID": 4567877,
       "required": true,
       "__meta": {
         "name": "TerraBlender (Fabric)",
@@ -600,7 +645,7 @@
     },
     {
       "projectID": 571503,
-      "fileID": 4483298,
+      "fileID": 4482950,
       "required": true,
       "__meta": {
         "name": "Guard Villagers (Fabric/Quilt)",
@@ -611,7 +656,7 @@
     },
     {
       "projectID": 579192,
-      "fileID": 4135258,
+      "fileID": 4593872,
       "required": true,
       "__meta": {
         "name": "Farsight [Fabric]"
@@ -619,7 +664,7 @@
     },
     {
       "projectID": 581435,
-      "fileID": 4524565,
+      "fileID": 4554351,
       "required": true,
       "__meta": {
         "name": "Forgero - [Fabric]",
@@ -630,7 +675,7 @@
     },
     {
       "projectID": 590988,
-      "fileID": 4031234,
+      "fileID": 4454299,
       "required": true,
       "__meta": {
         "name": "YUNG's Bridges (Fabric)",
@@ -643,7 +688,7 @@
     },
     {
       "projectID": 590993,
-      "fileID": 4031232,
+      "fileID": 4454294,
       "required": true,
       "__meta": {
         "name": "YUNG's Extras (Fabric)",
@@ -656,7 +701,7 @@
     },
     {
       "projectID": 615106,
-      "fileID": 4179748,
+      "fileID": 4596354,
       "required": true,
       "__meta": {
         "name": "Lootr (Fabric)",
@@ -668,7 +713,7 @@
     },
     {
       "projectID": 631020,
-      "fileID": 4419321,
+      "fileID": 4454279,
       "required": true,
       "__meta": {
         "name": "YUNG's Better Desert Temples (Fabric)",
@@ -681,7 +726,7 @@
     },
     {
       "projectID": 631403,
-      "fileID": 4031228,
+      "fileID": 4454289,
       "required": true,
       "__meta": {
         "name": "YUNG's Better Witch Huts (Fabric)",
@@ -694,7 +739,7 @@
     },
     {
       "projectID": 638535,
-      "fileID": 4485575,
+      "fileID": 4485582,
       "required": true,
       "__meta": {
         "name": "Dungeon Now Loading"
@@ -702,7 +747,7 @@
     },
     {
       "projectID": 639842,
-      "fileID": 4534620,
+      "fileID": 4534648,
       "required": true,
       "__meta": {
         "name": "Better Combat [Fabric & Forge]",
@@ -715,7 +760,7 @@
     },
     {
       "projectID": 656665,
-      "fileID": 4391260,
+      "fileID": 4598360,
       "required": true,
       "__meta": {
         "name": "Jade Addons (Fabric)",
@@ -726,7 +771,7 @@
     },
     {
       "projectID": 658587,
-      "fileID": 4418150,
+      "fileID": 4446526,
       "required": true,
       "__meta": {
         "name": "playerAnimator",
@@ -734,19 +779,8 @@
       }
     },
     {
-      "projectID": 659887,
-      "fileID": 4532191,
-      "required": true,
-      "__meta": {
-        "name": "Simply Swords [Fabric & Forge]",
-        "dependencies": [
-          419699
-        ]
-      }
-    },
-    {
       "projectID": 689252,
-      "fileID": 4031419,
+      "fileID": 4454282,
       "required": true,
       "__meta": {
         "name": "YUNG's Better Ocean Monuments (Fabric)",
@@ -759,7 +793,7 @@
     },
     {
       "projectID": 693313,
-      "fileID": 4416616,
+      "fileID": 4583679,
       "required": true,
       "__meta": {
         "name": "CorgiLib",
@@ -767,28 +801,20 @@
       }
     },
     {
-      "projectID": 696205,
-      "fileID": 4081883,
-      "required": true,
-      "__meta": {
-        "name": "Dark Mode Everywhere (Fabric)"
-      }
-    },
-    {
       "projectID": 711899,
-      "fileID": 4318684,
+      "fileID": 4447866,
       "required": true,
       "__meta": {
         "name": "Friends&Foes - Beekeeper Hut (Fabric)",
         "dependencies": [
-          551364,
-          306612
+          306612,
+          551364
         ]
       }
     },
     {
       "projectID": 779833,
-      "fileID": 4276868,
+      "fileID": 4447944,
       "required": true,
       "__meta": {
         "name": "Friends&Foes - Flowery Mooblooms (Fabric)",
@@ -800,7 +826,7 @@
     },
     {
       "projectID": 817666,
-      "fileID": 4426796,
+      "fileID": 4454285,
       "required": true,
       "__meta": {
         "name": "YUNG's Better Nether Fortresses (Fabric)",
