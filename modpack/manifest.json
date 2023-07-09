@@ -53,7 +53,7 @@
     },
     {
       "projectID": 256717,
-      "fileID": 4552339,
+      "fileID": 4614556,
       "required": true,
       "__meta": {
         "name": "Clumps"
@@ -72,7 +72,7 @@
     },
     {
       "projectID": 306612,
-      "fileID": 4600520,
+      "fileID": 4622860,
       "required": true,
       "__meta": {
         "name": "Fabric API",
@@ -81,7 +81,7 @@
     },
     {
       "projectID": 308769,
-      "fileID": 4575400,
+      "fileID": 4628045,
       "required": true,
       "__meta": {
         "name": "Fabric Language Kotlin",
@@ -144,7 +144,7 @@
     },
     {
       "projectID": 348521,
-      "fileID": 4440460,
+      "fileID": 4633432,
       "required": true,
       "__meta": {
         "name": "Cloth Config API (Fabric/Forge)",
@@ -305,7 +305,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 4600616,
+      "fileID": 4619123,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -313,7 +313,7 @@
     },
     {
       "projectID": 419699,
-      "fileID": 4555752,
+      "fileID": 4633040,
       "required": true,
       "__meta": {
         "name": "Architectury API (Fabric/Forge)",
@@ -579,7 +579,7 @@
     },
     {
       "projectID": 541171,
-      "fileID": 4601871,
+      "fileID": 4615951,
       "required": true,
       "__meta": {
         "name": "Traveler's Backpack [Fabric]",
@@ -603,7 +603,7 @@
     },
     {
       "projectID": 551364,
-      "fileID": 4602667,
+      "fileID": 4622763,
       "required": true,
       "__meta": {
         "name": "Friends&Foes (Fabric)",
@@ -622,7 +622,7 @@
     },
     {
       "projectID": 552277,
-      "fileID": 4515293,
+      "fileID": 4612964,
       "required": true,
       "__meta": {
         "name": "Craftify",
@@ -633,7 +633,7 @@
     },
     {
       "projectID": 565956,
-      "fileID": 4567877,
+      "fileID": 4629897,
       "required": true,
       "__meta": {
         "name": "TerraBlender (Fabric)",
