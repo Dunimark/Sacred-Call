@@ -274,14 +274,6 @@
       }
     },
     {
-      "projectID": 432819,
-      "fileID": 4477659,
-      "required": true,
-      "__meta": {
-        "name": "Zombie Jerky [ Fabric ]"
-      }
-    },
-    {
       "projectID": 435044,
       "fileID": 4596636,
       "required": true,
@@ -331,17 +323,6 @@
       "required": true,
       "__meta": {
         "name": "FerriteCore (Fabric)"
-      }
-    },
-    {
-      "projectID": 473553,
-      "fileID": 4642939,
-      "required": true,
-      "__meta": {
-        "name": "Dark Enchanting",
-        "dependencies": [
-          306612
-        ]
       }
     },
     {
@@ -639,6 +620,17 @@
         "dependencies": [
           306612,
           551364
+        ]
+      }
+    },
+    {
+      "projectID": 867099,
+      "fileID": 4609411,
+      "required": true,
+      "__meta": {
+        "name": "CraterLib",
+        "dependencies": [
+          306612
         ]
       }
     }
