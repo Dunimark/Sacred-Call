@@ -87,7 +87,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: modpack
-          path: .out/${{ env.PROJECT_NAME }}-${{ env.PROJECT_NAME }}.zip
+          path: .out/${{ env.PROJECT_NAME }}-${{ github.event.inputs.modpack-version }}.zip
   
   release-github:
     runs-on: ubuntu-latest
