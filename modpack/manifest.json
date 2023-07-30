@@ -81,7 +81,7 @@
     },
     {
       "projectID": 308769,
-      "fileID": 4628045,
+      "fileID": 4654791,
       "required": true,
       "__meta": {
         "name": "Fabric Language Kotlin",
@@ -90,7 +90,7 @@
     },
     {
       "projectID": 310111,
-      "fileID": 4622769,
+      "fileID": 4647811,
       "required": true,
       "__meta": {
         "name": "Roughly Enough Items Fabric/Forge (REI)",
@@ -103,7 +103,7 @@
     },
     {
       "projectID": 311377,
-      "fileID": 4632563,
+      "fileID": 4658909,
       "required": true,
       "__meta": {
         "name": "BetterNether",
@@ -136,7 +136,7 @@
     },
     {
       "projectID": 324717,
-      "fileID": 4632996,
+      "fileID": 4653227,
       "required": true,
       "__meta": {
         "name": "Jade 🔍"
@@ -200,7 +200,7 @@
     },
     {
       "projectID": 410127,
-      "fileID": 4578567,
+      "fileID": 4644233,
       "required": true,
       "__meta": {
         "name": "Mythic Metals",
@@ -224,7 +224,7 @@
     },
     {
       "projectID": 413596,
-      "fileID": 4632566,
+      "fileID": 4658906,
       "required": true,
       "__meta": {
         "name": "BetterEnd",
@@ -252,7 +252,7 @@
     },
     {
       "projectID": 419699,
-      "fileID": 4633047,
+      "fileID": 4663009,
       "required": true,
       "__meta": {
         "name": "Architectury API (Fabric/Forge)",
@@ -295,7 +295,7 @@
     },
     {
       "projectID": 438718,
-      "fileID": 4574505,
+      "fileID": 4644228,
       "required": true,
       "__meta": {
         "name": "Alloy Forgery",
@@ -350,7 +350,7 @@
     },
     {
       "projectID": 495191,
-      "fileID": 4632560,
+      "fileID": 4658905,
       "required": true,
       "__meta": {
         "name": "BCLib",
@@ -381,7 +381,7 @@
     },
     {
       "projectID": 500525,
-      "fileID": 4597439,
+      "fileID": 4670590,
       "required": true,
       "__meta": {
         "name": "Balm (Fabric Edition)",
@@ -405,7 +405,7 @@
     },
     {
       "projectID": 513688,
-      "fileID": 4634643,
+      "fileID": 4657064,
       "required": true,
       "__meta": {
         "name": "Terralith"
@@ -519,7 +519,7 @@
     },
     {
       "projectID": 571503,
-      "fileID": 4572093,
+      "fileID": 4643948,
       "required": true,
       "__meta": {
         "name": "Guard Villagers (Fabric/Quilt)",
@@ -530,7 +530,7 @@
     },
     {
       "projectID": 579192,
-      "fileID": 4595154,
+      "fileID": 4661436,
       "required": true,
       "__meta": {
         "name": "Farsight [Fabric]"
@@ -561,7 +561,7 @@
     },
     {
       "projectID": 623764,
-      "fileID": 4571744,
+      "fileID": 4662529,
       "required": true,
       "__meta": {
         "name": "JamLib",
@@ -629,6 +629,17 @@
       "required": true,
       "__meta": {
         "name": "CraterLib",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 888625,
+      "fileID": 4647012,
+      "required": true,
+      "__meta": {
+        "name": "rftl - Rotten Flesh to Leather",
         "dependencies": [
           306612
         ]
