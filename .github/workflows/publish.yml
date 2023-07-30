@@ -13,7 +13,7 @@ env:
   MINECRAFT_VERSION: 1.20
   PROJECT_NAME: "Sacred-Call"
   PROJECT_ID: "896639"
-  CURSEFORGE_TOKEN: ${{ secrets.PUBLISH_CURSEFORGE_TOKEN }}
+  CURSEFORGE_TOKEN: ${{ secrets.CF_API_TOKEN }}
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
@@ -130,7 +130,7 @@ jobs:
       - name: Create release
         uses: itsmeow/curseforge-upload@v3
         with:
-          token: ${{ secrets.CF_API_TOKEN }}
+          token: ${{ env.CURSEFORGE_TOKEN }}
           project_id: ${{ env.PROJECT_ID }}
           game_endpoint: minecraft
           file_path: ${{ env.PROJECT_NAME }}-${{ github.event.inputs.modpack-version }}.zip
