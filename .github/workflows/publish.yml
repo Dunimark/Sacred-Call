@@ -4,7 +4,7 @@ on:
     workflow_dispatch:
         inputs:
             modpack-version:
-                description: 'the Version it is on'
+                description: 'Modpack Version'
                 required: true
                 default: 'production'
 
