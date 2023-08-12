@@ -101,6 +101,16 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: changelog
+      - name: Create tag
+        uses: actions/github-script@v5
+        with:
+          script: |
+            github.rest.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: 'refs/tags/github.event.inputs.modpack-version',
+              sha: context.sha
+            })
       - name: Create release
         uses: softprops/action-gh-release@v1
         with:
