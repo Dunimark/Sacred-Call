@@ -90,7 +90,7 @@
     },
     {
       "projectID": 310111,
-      "fileID": 4647811,
+      "fileID": 4690214,
       "required": true,
       "__meta": {
         "name": "Roughly Enough Items Fabric/Forge (REI)",
@@ -115,7 +115,7 @@
     },
     {
       "projectID": 318449,
-      "fileID": 4576291,
+      "fileID": 4681153,
       "required": true,
       "__meta": {
         "name": "Cardinal Components",
@@ -124,7 +124,7 @@
     },
     {
       "projectID": 319596,
-      "fileID": 4641062,
+      "fileID": 4684391,
       "required": true,
       "__meta": {
         "name": "Pehkui",
@@ -136,7 +136,7 @@
     },
     {
       "projectID": 324717,
-      "fileID": 4653227,
+      "fileID": 4681829,
       "required": true,
       "__meta": {
         "name": "Jade 🔍"
@@ -213,7 +213,7 @@
     },
     {
       "projectID": 411816,
-      "fileID": 4578494,
+      "fileID": 4674515,
       "required": true,
       "__meta": {
         "name": "Simple Discord RPC [Forge/Fabric/Quilt]",
@@ -224,7 +224,7 @@
     },
     {
       "projectID": 413596,
-      "fileID": 4658906,
+      "fileID": 4677967,
       "required": true,
       "__meta": {
         "name": "BetterEnd",
@@ -307,7 +307,7 @@
     },
     {
       "projectID": 452834,
-      "fileID": 4584147,
+      "fileID": 4690489,
       "required": true,
       "__meta": {
         "name": "RightClickHarvest",
@@ -350,7 +350,7 @@
     },
     {
       "projectID": 495191,
-      "fileID": 4658905,
+      "fileID": 4677965,
       "required": true,
       "__meta": {
         "name": "BCLib",
@@ -530,7 +530,7 @@
     },
     {
       "projectID": 579192,
-      "fileID": 4661436,
+      "fileID": 4689058,
       "required": true,
       "__meta": {
         "name": "Farsight [Fabric]"
@@ -570,7 +570,7 @@
     },
     {
       "projectID": 639842,
-      "fileID": 4597949,
+      "fileID": 4685416,
       "required": true,
       "__meta": {
         "name": "Better Combat [Fabric & Forge]",
@@ -592,7 +592,7 @@
     },
     {
       "projectID": 693313,
-      "fileID": 4583905,
+      "fileID": 4681372,
       "required": true,
       "__meta": {
         "name": "CorgiLib",
@@ -625,7 +625,7 @@
     },
     {
       "projectID": 867099,
-      "fileID": 4609411,
+      "fileID": 4674455,
       "required": true,
       "__meta": {
         "name": "CraterLib",
@@ -636,7 +636,7 @@
     },
     {
       "projectID": 888625,
-      "fileID": 4647012,
+      "fileID": 4699691,
       "required": true,
       "__meta": {
         "name": "rftl - Rotten Flesh to Leather",

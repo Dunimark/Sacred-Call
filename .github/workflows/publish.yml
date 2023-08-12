@@ -6,7 +6,7 @@ on:
             modpack-version:
                 description: 'Modpack Version'
                 required: true
-                default: 'production'
+                default: '1.x.x'
 
 
 env:
