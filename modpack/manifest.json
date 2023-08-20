@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Dunimark",
   "name": "Sacred-Call",
   "files": [
@@ -573,28 +573,6 @@
       "required": true,
       "__meta": {
         "name": "JamLib",
-        "explicit": false
-      }
-    },
-    {
-      "projectID": 639842,
-      "fileID": 4685416,
-      "required": true,
-      "__meta": {
-        "name": "Better Combat [Fabric & Forge]",
-        "dependencies": [
-          306612,
-          658587,
-          348521
-        ]
-      }
-    },
-    {
-      "projectID": 658587,
-      "fileID": 4587215,
-      "required": true,
-      "__meta": {
-        "name": "playerAnimator",
         "explicit": false
       }
     },

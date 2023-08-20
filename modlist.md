@@ -5,7 +5,6 @@
 - Architectury API (Fabric/Forge)
 - BCLib
 - Balm (Fabric Edition)
-- Better Combat [Fabric & Forge]
 - Better Third Person
 - BetterEnd
 - BetterNether
@@ -57,5 +56,4 @@
 - Visuality 
 - Waystones (Fabric Edition)
 - oωo (owo-lib)
-- playerAnimator
 - rftl - Rotten Flesh to Leather
