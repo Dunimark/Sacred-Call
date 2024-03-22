@@ -25,7 +25,7 @@
     },
     {
       "projectID": 228525,
-      "fileID": 4634402,
+      "fileID": 4934365,
       "required": true,
       "__meta": {
         "name": "Bookshelf",
@@ -34,7 +34,7 @@
     },
     {
       "projectID": 248787,
-      "fileID": 4573208,
+      "fileID": 4770825,
       "required": true,
       "__meta": {
         "name": "AppleSkin",
@@ -81,7 +81,7 @@
     },
     {
       "projectID": 308769,
-      "fileID": 4654791,
+      "fileID": 5166475,
       "required": true,
       "__meta": {
         "name": "Fabric Language Kotlin",
@@ -90,7 +90,7 @@
     },
     {
       "projectID": 310111,
-      "fileID": 4690214,
+      "fileID": 4951141,
       "required": true,
       "__meta": {
         "name": "Roughly Enough Items Fabric/Forge (REI)",
@@ -103,7 +103,7 @@
     },
     {
       "projectID": 311377,
-      "fileID": 4658909,
+      "fileID": 4971478,
       "required": true,
       "__meta": {
         "name": "BetterNether",
@@ -136,7 +136,7 @@
     },
     {
       "projectID": 324717,
-      "fileID": 4681829,
+      "fileID": 5106745,
       "required": true,
       "__meta": {
         "name": "Jade 🔍"
@@ -144,7 +144,7 @@
     },
     {
       "projectID": 326652,
-      "fileID": 4669189,
+      "fileID": 5063789,
       "required": true,
       "__meta": {
         "name": "Cupboard"
@@ -152,7 +152,7 @@
     },
     {
       "projectID": 348521,
-      "fileID": 4633442,
+      "fileID": 4973440,
       "required": true,
       "__meta": {
         "name": "Cloth Config API (Fabric/Forge)",
@@ -208,7 +208,7 @@
     },
     {
       "projectID": 410127,
-      "fileID": 4644233,
+      "fileID": 5188139,
       "required": true,
       "__meta": {
         "name": "Mythic Metals",
@@ -221,7 +221,7 @@
     },
     {
       "projectID": 411816,
-      "fileID": 4674515,
+      "fileID": 4776530,
       "required": true,
       "__meta": {
         "name": "Simple Discord RPC [Forge/Fabric/Quilt]",
@@ -232,7 +232,7 @@
     },
     {
       "projectID": 413596,
-      "fileID": 4677967,
+      "fileID": 4971487,
       "required": true,
       "__meta": {
         "name": "BetterEnd",
@@ -244,7 +244,7 @@
     },
     {
       "projectID": 415438,
-      "fileID": 4636035,
+      "fileID": 4997461,
       "required": true,
       "__meta": {
         "name": "Croptopia"
@@ -260,7 +260,7 @@
     },
     {
       "projectID": 419699,
-      "fileID": 4663009,
+      "fileID": 5137936,
       "required": true,
       "__meta": {
         "name": "Architectury API (Fabric/Forge)",
@@ -303,7 +303,7 @@
     },
     {
       "projectID": 438718,
-      "fileID": 4644228,
+      "fileID": 4944647,
       "required": true,
       "__meta": {
         "name": "Alloy Forgery",
@@ -327,7 +327,7 @@
     },
     {
       "projectID": 459857,
-      "fileID": 4574364,
+      "fileID": 4810977,
       "required": true,
       "__meta": {
         "name": "FerriteCore (Fabric)"
@@ -358,7 +358,7 @@
     },
     {
       "projectID": 495191,
-      "fileID": 4677965,
+      "fileID": 4971470,
       "required": true,
       "__meta": {
         "name": "BCLib",
@@ -370,7 +370,7 @@
     },
     {
       "projectID": 498534,
-      "fileID": 4591530,
+      "fileID": 4830263,
       "required": true,
       "__meta": {
         "name": "Iron Chests (Fabric)"
@@ -378,7 +378,7 @@
     },
     {
       "projectID": 500087,
-      "fileID": 4635312,
+      "fileID": 4962607,
       "required": true,
       "__meta": {
         "name": "Waystones (Fabric Edition)",
@@ -389,7 +389,7 @@
     },
     {
       "projectID": 500525,
-      "fileID": 4670590,
+      "fileID": 5140906,
       "required": true,
       "__meta": {
         "name": "Balm (Fabric Edition)",
@@ -402,7 +402,7 @@
     },
     {
       "projectID": 502516,
-      "fileID": 4596460,
+      "fileID": 5140222,
       "required": true,
       "__meta": {
         "name": "Crafting Tweaks (Fabric Edition)",
@@ -413,7 +413,7 @@
     },
     {
       "projectID": 513688,
-      "fileID": 4657064,
+      "fileID": 4938254,
       "required": true,
       "__meta": {
         "name": "Terralith"
@@ -421,7 +421,7 @@
     },
     {
       "projectID": 521126,
-      "fileID": 4571997,
+      "fileID": 4760021,
       "required": true,
       "__meta": {
         "name": "Visuality",
@@ -433,7 +433,7 @@
     },
     {
       "projectID": 527023,
-      "fileID": 4573352,
+      "fileID": 4958498,
       "required": true,
       "__meta": {
         "name": "Eating Animation [Fabric]"
@@ -452,7 +452,7 @@
     },
     {
       "projectID": 532610,
-      "fileID": 4623695,
+      "fileID": 4749199,
       "required": true,
       "__meta": {
         "name": "oωo (owo-lib)",
@@ -485,7 +485,7 @@
     },
     {
       "projectID": 551364,
-      "fileID": 4639311,
+      "fileID": 5184451,
       "required": true,
       "__meta": {
         "name": "Friends&Foes (Fabric)",
@@ -496,7 +496,7 @@
     },
     {
       "projectID": 552176,
-      "fileID": 4631016,
+      "fileID": 4973710,
       "required": true,
       "__meta": {
         "name": "Amplified Nether"
@@ -504,7 +504,7 @@
     },
     {
       "projectID": 552277,
-      "fileID": 4612960,
+      "fileID": 5096649,
       "required": true,
       "__meta": {
         "name": "Craftify",
@@ -538,7 +538,7 @@
     },
     {
       "projectID": 579192,
-      "fileID": 4689058,
+      "fileID": 4870074,
       "required": true,
       "__meta": {
         "name": "Farsight [Fabric]"
@@ -546,7 +546,7 @@
     },
     {
       "projectID": 581435,
-      "fileID": 4582974,
+      "fileID": 4984424,
       "required": true,
       "__meta": {
         "name": "Forgero - [Fabric]",
@@ -557,7 +557,7 @@
     },
     {
       "projectID": 615106,
-      "fileID": 4608507,
+      "fileID": 5098222,
       "required": true,
       "__meta": {
         "name": "Lootr (Fabric)",
@@ -578,7 +578,7 @@
     },
     {
       "projectID": 693313,
-      "fileID": 4681372,
+      "fileID": 5170913,
       "required": true,
       "__meta": {
         "name": "CorgiLib",
@@ -587,7 +587,7 @@
     },
     {
       "projectID": 711899,
-      "fileID": 4579686,
+      "fileID": 5049336,
       "required": true,
       "__meta": {
         "name": "Friends&Foes - Beekeeper Hut (Fabric)",
@@ -599,7 +599,7 @@
     },
     {
       "projectID": 779833,
-      "fileID": 4579718,
+      "fileID": 5034685,
       "required": true,
       "__meta": {
         "name": "Friends&Foes - Flowery Mooblooms (Fabric)",
@@ -611,7 +611,7 @@
     },
     {
       "projectID": 867099,
-      "fileID": 4674455,
+      "fileID": 5005002,
       "required": true,
       "__meta": {
         "name": "CraterLib",
