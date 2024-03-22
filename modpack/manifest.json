@@ -1,9 +1,9 @@
 {
   "minecraft": {
-    "version": "1.20",
+    "version": "1.20.1",
     "modLoaders": [
       {
-        "id": "fabric-0.14.21",
+        "id": "fabric-0.15.6",
         "primary": true
       }
     ]
@@ -25,7 +25,7 @@
     },
     {
       "projectID": 228525,
-      "fileID": 4934365,
+      "fileID": 5084134,
       "required": true,
       "__meta": {
         "name": "Bookshelf",
@@ -45,7 +45,7 @@
     },
     {
       "projectID": 252848,
-      "fileID": 4595970,
+      "fileID": 4712188,
       "required": true,
       "__meta": {
         "name": "Nature's Compass"
@@ -53,7 +53,7 @@
     },
     {
       "projectID": 256717,
-      "fileID": 4614552,
+      "fileID": 4614554,
       "required": true,
       "__meta": {
         "name": "Clumps"
@@ -61,7 +61,7 @@
     },
     {
       "projectID": 306549,
-      "fileID": 4588136,
+      "fileID": 5134759,
       "required": true,
       "__meta": {
         "name": "Tips",
@@ -72,7 +72,7 @@
     },
     {
       "projectID": 306612,
-      "fileID": 4559072,
+      "fileID": 5105683,
       "required": true,
       "__meta": {
         "name": "Fabric API",
@@ -124,7 +124,7 @@
     },
     {
       "projectID": 319596,
-      "fileID": 4684391,
+      "fileID": 4974838,
       "required": true,
       "__meta": {
         "name": "Pehkui",
@@ -144,7 +144,7 @@
     },
     {
       "projectID": 326652,
-      "fileID": 5063789,
+      "fileID": 5170317,
       "required": true,
       "__meta": {
         "name": "Cupboard"
@@ -161,7 +161,7 @@
     },
     {
       "projectID": 353928,
-      "fileID": 4640482,
+      "fileID": 5167927,
       "required": true,
       "__meta": {
         "name": "Botany Pots",
@@ -185,7 +185,7 @@
     },
     {
       "projectID": 388172,
-      "fileID": 4572400,
+      "fileID": 5188421,
       "required": true,
       "__meta": {
         "name": "GeckoLib",
@@ -208,7 +208,7 @@
     },
     {
       "projectID": 410127,
-      "fileID": 5188139,
+      "fileID": 5190090,
       "required": true,
       "__meta": {
         "name": "Mythic Metals",
@@ -252,7 +252,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 4574223,
+      "fileID": 5186498,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -291,7 +291,7 @@
     },
     {
       "projectID": 436298,
-      "fileID": 4592038,
+      "fileID": 5152578,
       "required": true,
       "__meta": {
         "name": "Map Atlases [Fabric]",
@@ -370,10 +370,21 @@
     },
     {
       "projectID": 498534,
-      "fileID": 4830263,
+      "fileID": 5083277,
       "required": true,
       "__meta": {
         "name": "Iron Chests (Fabric)"
+      }
+    },
+    {
+      "projectID": 499980,
+      "fileID": 5201141,
+      "required": true,
+      "__meta": {
+        "name": "Moonlight Lib",
+        "dependencies": [
+          306612
+        ]
       }
     },
     {
@@ -441,7 +452,7 @@
     },
     {
       "projectID": 531351,
-      "fileID": 4580976,
+      "fileID": 4779473,
       "required": true,
       "__meta": {
         "name": "Continuity",
@@ -461,7 +472,7 @@
     },
     {
       "projectID": 541171,
-      "fileID": 4578201,
+      "fileID": 4989864,
       "required": true,
       "__meta": {
         "name": "Traveler's Backpack [Fabric]",
@@ -515,7 +526,7 @@
     },
     {
       "projectID": 565956,
-      "fileID": 4573002,
+      "fileID": 5068219,
       "required": true,
       "__meta": {
         "name": "TerraBlender (Fabric)",
@@ -527,7 +538,7 @@
     },
     {
       "projectID": 571503,
-      "fileID": 4643948,
+      "fileID": 4942394,
       "required": true,
       "__meta": {
         "name": "Guard Villagers (Fabric/Quilt)",
@@ -546,7 +557,7 @@
     },
     {
       "projectID": 581435,
-      "fileID": 4984424,
+      "fileID": 5177494,
       "required": true,
       "__meta": {
         "name": "Forgero - [Fabric]",
@@ -618,6 +629,14 @@
         "dependencies": [
           306612
         ]
+      }
+    },
+    {
+      "projectID": 885449,
+      "fileID": 4949797,
+      "required": true,
+      "__meta": {
+        "name": "EpheroLib"
       }
     },
     {
