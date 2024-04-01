@@ -3,7 +3,7 @@
     "version": "1.20.1",
     "modLoaders": [
       {
-        "id": "fabric-0.15.6",
+        "id": "fabric-0.15.7",
         "primary": true
       }
     ]
@@ -30,6 +30,14 @@
       "__meta": {
         "name": "Bookshelf",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 238222,
+      "fileID": 5101365,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Items (JEI)"
       }
     },
     {
@@ -89,19 +97,6 @@
       }
     },
     {
-      "projectID": 310111,
-      "fileID": 4951141,
-      "required": true,
-      "__meta": {
-        "name": "Roughly Enough Items Fabric/Forge (REI)",
-        "dependencies": [
-          306612,
-          419699,
-          348521
-        ]
-      }
-    },
-    {
       "projectID": 311377,
       "fileID": 4971478,
       "required": true,
@@ -124,7 +119,7 @@
     },
     {
       "projectID": 319596,
-      "fileID": 4974838,
+      "fileID": 5208259,
       "required": true,
       "__meta": {
         "name": "Pehkui",
@@ -161,7 +156,7 @@
     },
     {
       "projectID": 353928,
-      "fileID": 5167927,
+      "fileID": 5219189,
       "required": true,
       "__meta": {
         "name": "Botany Pots",
@@ -252,7 +247,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 5186498,
+      "fileID": 5219905,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -291,13 +286,39 @@
     },
     {
       "projectID": 436298,
-      "fileID": 5152578,
+      "fileID": 5226126,
       "required": true,
       "__meta": {
         "name": "Map Atlases [Fabric]",
         "dependencies": [
           306612,
           348521
+        ]
+      }
+    },
+    {
+      "projectID": 438495,
+      "fileID": 5051952,
+      "required": true,
+      "__meta": {
+        "name": "FTB Library (Fabric)",
+        "explicit": false,
+        "dependencies": [
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 438497,
+      "fileID": 5176342,
+      "required": true,
+      "__meta": {
+        "name": "FTB Teams (Fabric)",
+        "explicit": false,
+        "dependencies": [
+          419699,
+          306612,
+          438495
         ]
       }
     },
@@ -331,6 +352,20 @@
       "required": true,
       "__meta": {
         "name": "FerriteCore (Fabric)"
+      }
+    },
+    {
+      "projectID": 472657,
+      "fileID": 5210494,
+      "required": true,
+      "__meta": {
+        "name": "FTB Chunks (Fabric)",
+        "dependencies": [
+          438495,
+          438497,
+          306612,
+          419699
+        ]
       }
     },
     {
@@ -424,7 +459,7 @@
     },
     {
       "projectID": 513688,
-      "fileID": 4725190,
+      "fileID": 4938254,
       "required": true,
       "__meta": {
         "name": "Terralith"
@@ -444,7 +479,7 @@
     },
     {
       "projectID": 527023,
-      "fileID": 4958498,
+      "fileID": 5212742,
       "required": true,
       "__meta": {
         "name": "Eating Animation [Fabric]"
@@ -472,7 +507,7 @@
     },
     {
       "projectID": 541171,
-      "fileID": 4989864,
+      "fileID": 5207622,
       "required": true,
       "__meta": {
         "name": "Traveler's Backpack [Fabric]",
@@ -585,6 +620,22 @@
       "__meta": {
         "name": "JamLib",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 667299,
+      "fileID": 5103177,
+      "required": true,
+      "__meta": {
+        "name": "YetAnotherConfigLib"
+      }
+    },
+    {
+      "projectID": 689467,
+      "fileID": 5128793,
+      "required": true,
+      "__meta": {
+        "name": "Packet Fixer"
       }
     },
     {
