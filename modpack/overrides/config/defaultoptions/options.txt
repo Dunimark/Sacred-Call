@@ -15,7 +15,7 @@ showSubtitles:false
 directionalAudio:false
 touchscreen:false
 fullscreen:false
-bobView:true
+bobView:false
 toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:true
@@ -37,7 +37,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","Fabric Mods","black_icons","minecraft/supporteatinganimation","simplyswords/classic","continuity/default","continuity/glass_pane_culling_fix"]
+resourcePacks:["vanilla","Fabric Mods","black_icons","minecraft/supporteatinganimation","continuity/default","continuity/glass_pane_culling_fix"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:de_de
@@ -70,7 +70,7 @@ glDebugVerbosity:1
 skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
