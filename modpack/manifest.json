@@ -33,14 +33,6 @@
       }
     },
     {
-      "projectID": 238222,
-      "fileID": 5101365,
-      "required": true,
-      "__meta": {
-        "name": "Just Enough Items (JEI)"
-      }
-    },
-    {
       "projectID": 248787,
       "fileID": 4770825,
       "required": true,
@@ -94,6 +86,19 @@
       "__meta": {
         "name": "Fabric Language Kotlin",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 310111,
+      "fileID": 4951141,
+      "required": true,
+      "__meta": {
+        "name": "Roughly Enough Items Fabric/Forge/NeoForge (REI)",
+        "dependencies": [
+          306612,
+          348521,
+          419699
+        ]
       }
     },
     {
