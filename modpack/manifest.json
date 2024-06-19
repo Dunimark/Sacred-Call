@@ -207,8 +207,16 @@
       }
     },
     {
+      "projectID": 394468,
+      "fileID": 5425359,
+      "required": true,
+      "__meta": {
+        "name": "Sodium"
+      }
+    },
+    {
       "projectID": 410127,
-      "fileID": 5190090,
+      "fileID": 5418365,
       "required": true,
       "__meta": {
         "name": "Mythic Metals",
@@ -340,6 +348,22 @@
       }
     },
     {
+      "projectID": 447673,
+      "fileID": 5063875,
+      "required": true,
+      "__meta": {
+        "name": "Sodium Extra",
+        "dependencies": [
+          394468,
+          306612,
+          394468,
+          394468,
+          306612,
+          306612
+        ]
+      }
+    },
+    {
       "projectID": 452834,
       "fileID": 4690489,
       "required": true,
@@ -348,6 +372,28 @@
         "dependencies": [
           623764,
           306612
+        ]
+      }
+    },
+    {
+      "projectID": 455508,
+      "fileID": 5425378,
+      "required": true,
+      "__meta": {
+        "name": "Iris Shaders",
+        "dependencies": [
+          394468
+        ]
+      }
+    },
+    {
+      "projectID": 459496,
+      "fileID": 5436380,
+      "required": true,
+      "__meta": {
+        "name": "Indium",
+        "dependencies": [
+          394468
         ]
       }
     },
@@ -463,8 +509,20 @@
       }
     },
     {
+      "projectID": 511319,
+      "fileID": 5075462,
+      "required": true,
+      "__meta": {
+        "name": "Reese's Sodium Options",
+        "dependencies": [
+          394468,
+          394468
+        ]
+      }
+    },
+    {
       "projectID": 513688,
-      "fileID": 4938254,
+      "fileID": 5351328,
       "required": true,
       "__meta": {
         "name": "Terralith"
