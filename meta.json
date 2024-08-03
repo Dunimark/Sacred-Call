@@ -5,8 +5,8 @@
   "versions": [
     {
       "id": "1.2.0",
-      "releasedAt": 1718748000000
-	  "promotions": {
+      "releasedAt": 1718748000000,
+	    "promotions": {
             "downloads": {
                 "curseforge": "https://www.curseforge.com/minecraft/modpacks/sacred-call",
             }
