@@ -1,0 +1,11 @@
+# Sacred-Call
+## an Exploration and Adventure Modpack
+
+This modpack focuses on the point of exploration and adventure.
+
+a brief overview of the Mods in this Modpack and what they do:
+
+- Origin Mod: lets you choose your path with its pros and cons
+- Craftify: lets you control your spotify within Minecraft
+- Lootr: instances the chests for every player
+- Croptopia: adds more crops, tress and food
