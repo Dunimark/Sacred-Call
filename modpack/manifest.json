@@ -735,6 +735,17 @@
       }
     },
     {
+      "projectID": 847414,
+      "fileID": 5592451,
+      "required": true,
+      "__meta": {
+        "name": "Modpack Update Checker",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
       "projectID": 867099,
       "fileID": 5425124,
       "required": true,
