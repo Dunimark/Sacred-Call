@@ -1,0 +1,15 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [1.2.1] - 2024-08-03
+
+### 🚀 Features
+
+- Added Modpack Update Checker    |    just for the convenience for the players and me as author
+
+- Added Polymorph                 |    let's you choose with item you want to make if it has more as one recipe
+
+### 📚 Documentation
+
+- Raised to 1.2.1

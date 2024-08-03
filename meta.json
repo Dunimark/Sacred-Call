@@ -11,6 +11,16 @@
                 "curseforge": "https://www.curseforge.com/minecraft/modpacks/sacred-call"
             }
         }
+    },
+    {
+      "id": "1.2.1",
+      "releasedAt": 1722715130052,
+      "promotions": {
+        "downloads": {
+          "curseforge": "https://www.curseforge.com/minecraft/modpacks/sacred-call",
+          "generic": "https://discord.gg/mzK6ddxGrs"
+        }
+      }
     }
   ]
 }
